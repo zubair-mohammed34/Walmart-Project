@@ -31,14 +31,14 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
 
-### 5. Load Data into MySQL and PostgreSQL
-   - **Set Up Connections**: Connect to MySQL and PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
+### 5. Load Data into MySQL
+   - **Set Up Connections**: Connect to MySQL using `sqlalchemy` and load the cleaned data into each database.
    - **Table Creation**: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
 ### 6. SQL Analysis: Business Problem Solving
-     - Revenue trends across branches and categories.
-     - Identifying best-selling product categories.
-     - Sales performance by time, city, and payment method.
-     - Analyzing peak sales periods and customer buying patterns.
-     - Profit margin analysis by branch and category.
+   - Revenue trends across branches and categories.
+   - Identifying best-selling product categories.
+   - Sales performance by time, city, and payment method.
+   - Analyzing peak sales periods and customer buying patterns.
+   - Profit margin analysis by branch and category.
